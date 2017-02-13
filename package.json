@@ -1,0 +1,30 @@
+{
+  "name": "amazon-crawler",
+  "version": "1.0.0",
+  "description": "Amazon Crawler",
+  "main": "server.js",
+  "dependencies": {
+    "async": "^1.5.2",
+    "body-parser": "^1.15.2",
+    "express": "^4.13.4",
+    "jsdom": "^9.11.0",
+    "moment-timezone": "^0.5.7",
+    "request": "^2.72.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "hola",
+    "start": "ENV=local nodemon server.js",
+    "start_live": "ENV=local pm2 start server.js",
+    "restart_live": "pm2 restart all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Alvaro Burgos",
+  "license": "ISC"
+}
